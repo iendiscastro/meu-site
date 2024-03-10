@@ -1,0 +1,74 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Minha Página Web</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+    <header class="bg-dark text-light text-center py-3">
+        <h1>o que voçê precisa ?</h1>
+
+    
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container mt-4">
+
+        <section class="mb-4">
+            <h2 class="text-primary">Seção 1</h2>
+            <p> tudo sobre automovel.
+            </p>
+        </section>
+
+
+        <section class="mb-4">
+            <h2 class="text-success">Seção 2</h2>
+            <p>informação sobre os motores automotivos.</p>
+        </section>
+
+    
+        <section>
+            <h2 class="text-warning">Seção 3</h2>
+            <p>como conservar a pintura do seu automovel.</p>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-2" style="position: fixed; bottom: 0px; width: 100%;">
+        <p>&copy; <span id="anoAtual"></span> Minha Página Web</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('anoAtual').innerText = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
